@@ -56,27 +56,22 @@ div>a:active {
     box-shadow: inset 6px 6px 12px var(--dark-shadow), inset -6px -6px 12px var(--light-shadow);
 }
 
-#star {
+#github-stuff {
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: 1em;
+    right: 1.9em;
     font-size: 30px;
-    margin: 1em;
-    color: yellow;
     z-index: 1;
 }
 
-/* #star:hover {} */
-
-.circle {
+#message {
     position: absolute;
-    border-radius: 100px;
-    background-color: #000;
-    bottom: 0;
-    left: 0;
-    width: 10em;
-    height: 10em;
-    float: left;
-    margin-left: -40px;
-    margin-bottom: -40px;
+    border-radius: 13px;
+    background: var(--white-background);
+    box-shadow: inset 6px 6px 12px var(--dark-shadow), inset -6px -6px 12px var(--light-shadow);
+    left: 10%;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 15%;
+    text-align: center;
 }
