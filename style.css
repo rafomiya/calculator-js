@@ -63,15 +63,3 @@ div>a:active {
     font-size: 30px;
     z-index: 1;
 }
-
-#message {
-    position: absolute;
-    border-radius: 13px;
-    background: var(--white-background);
-    box-shadow: inset 6px 6px 12px var(--dark-shadow), inset -6px -6px 12px var(--light-shadow);
-    left: 10%;
-    top: 50%;
-    transform: translate(0, -50%);
-    width: 15%;
-    text-align: center;
-}
